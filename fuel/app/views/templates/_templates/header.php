@@ -25,6 +25,8 @@
         <link rel="stylesheet" type="text/css" href="../../../../../public/assets/app/css/libs/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="../../../../../public/assets/app/css/libs/normalize.css">
         <link rel="stylesheet" type="text/css" href="../../../../../public/assets/app/css/libs/lightslider.css">
+        <link rel="stylesheet" type="text/css" href="../../../../../public/assets/app/css/libs/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../../../public/assets/app/css/libs/bootstrap-theme.min.css">
         </style>
         <!-- endbuild -->
 
