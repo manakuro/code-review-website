@@ -1,6 +1,8 @@
 module.exports = function() {
+    var viewsRoot = '../../fuel/app/views/templates/_templates/';
     return {
         'document_root': 'http://vanarts_portfolio',
+        'views_root': viewsRoot,
         'js': {
             'app': './app/js/**/*.js',
             'ignore': './app/js/vendors/**/*.js',
@@ -16,8 +18,8 @@ module.exports = function() {
             'dist': './dist/img/'
         },
         'html': {
-            'app': ['./app/template/header.php', './app/template/footer.php'],
-            'dist': '../template/'
+            'app': [viewsRoot + 'header.php', viewsRoot + 'footer.php'],
+            'dist': '../../fuel/app/views/templates/'
         },
         'fonts': {
             'app': './app/fonts/**/*',

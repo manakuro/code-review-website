@@ -5,7 +5,7 @@ const $ = global.jQuery = require('jquery');
 const _ = require('lodash');
 const Utility = require('./utility');
 
-// variables
+// // variables
 const config = {};
 
 $(() => {

@@ -19,16 +19,15 @@
  * @package  app
  * @extends  Controller
  */
-class Controller_Welcome extends Controller
-{
+class Controller_Welcome extends Controller {
 	/**
 	 * The basic welcome message
 	 *
 	 * @access  public
 	 * @return  Response
 	 */
-	public function action_index()
-	{
+	public function action_index() {
+		Debug::dump("here");
 		return Response::forge(View::forge('welcome/index'));
 	}
 
@@ -39,8 +38,7 @@ class Controller_Welcome extends Controller
 	 * @access  public
 	 * @return  Response
 	 */
-	public function action_hello()
-	{
+	public function action_hello() {
 		return Response::forge(Presenter::forge('welcome/hello'));
 	}
 
@@ -50,8 +48,7 @@ class Controller_Welcome extends Controller
 	 * @access  public
 	 * @return  Response
 	 */
-	public function action_404()
-	{
+	public function action_404() {
 		return Response::forge(Presenter::forge('welcome/404'), 404);
 	}
 }
