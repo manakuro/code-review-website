@@ -147,7 +147,7 @@ $bp-xl: 80em;   // desktop / 1em = 16px, 80em = 1280px
     border: none;
     text-transform: uppercase;
     text-align: center;
-    width: $width;
+    max-width: $width;
 
     transition: border-color .5s;
 }
